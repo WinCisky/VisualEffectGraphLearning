@@ -37,10 +37,15 @@ public class VFXModifier : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        position.x = Mathf.Sin(Time.time) * 5;
+        position.y = Mathf.Cos(Time.time) * 5;
+
         float augment = Time.deltaTime * 3;
         //rotate the attractor field
         rotation.y += augment;
+        rotation.z += augment / 2;
         //movement
+        /*
         if (Input.GetKey(KeyCode.A))
         {
             position.x -= augment;
@@ -57,6 +62,7 @@ public class VFXModifier : MonoBehaviour
         {
             position.y += augment;
         }
+        */
         vfx.SetVector3("Rotation", rotation);
         vfx.SetVector3("Center", position);
     }
