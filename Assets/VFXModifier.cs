@@ -11,6 +11,8 @@ public class VFXModifier : MonoBehaviour
     private float intensity = 0;
     //local copy of position
     private Vector3 position = Vector3.zero;
+    //local copy of rotation
+    private Vector3 rotation = Vector3.zero;
     //movement speed
     public float movement_speed = 3;
 
@@ -36,6 +38,8 @@ public class VFXModifier : MonoBehaviour
     void Update()
     {
         float augment = Time.deltaTime * 3;
+        //rotate the attractor field
+        rotation.y += augment;
         //movement
         if (Input.GetKey(KeyCode.A))
         {
@@ -53,6 +57,7 @@ public class VFXModifier : MonoBehaviour
         {
             position.y += augment;
         }
+        vfx.SetVector3("Rotation", rotation);
         vfx.SetVector3("Center", position);
     }
 }
