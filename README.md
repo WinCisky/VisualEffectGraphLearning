@@ -10,5 +10,5 @@ Basic usage of vectorfield and parameters update trough script.
 ## Example 2
 Basic handling of particles trough script.
 
-![GfycatKeyboardFragment](https://thumbs.gfycat.com/wigglyfortunateicelandichorse-size_restricted.gif
+![GfycatKeyboardFragment](https://thumbs.gfycat.com/WigglyFortunateIcelandichorse-size_restricted.gif
 "How it looks like")
