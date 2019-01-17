@@ -7,3 +7,8 @@ Basic usage of vectorfield and parameters update trough script.
 ![GfycatKeyboardFragment](https://thumbs.gfycat.com/AmusingMerryGeese-size_restricted.gif 
 "How it is look like")
 
+## Example 2
+Basic handling of particles trough script.
+
+![GfycatKeyboardFragment](https://thumbs.gfycat.com/wigglyfortunateicelandichorse-size_restricted.gif
+"How it looks like")
